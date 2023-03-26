@@ -12,6 +12,12 @@ int addVar(){
     int sum = x+ y;
     cout<< sum;
 }
+int multiVar(){
+    int x = 5, y = 6, z = 50;
+    cout<<x+y+z<<endl;
+    return 0;
+}
+
 int main(){
     int myNum = 8;
     cout<<myNum<<endl;
