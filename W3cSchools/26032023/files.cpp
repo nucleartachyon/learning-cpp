@@ -17,4 +17,5 @@ int main(){
     while (getline(readingFile, mytext)){
         cout<<mytext;
     }
+    readingFile.close();
 }
