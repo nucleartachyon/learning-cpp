@@ -11,8 +11,8 @@ int main(){
     double totalPrice;
     for(int i =0;i<3;i++){
         cin>>purchaseAmount;
-        totalPrice = (purchaseAmount*15)/100;
-        cout<<round<int, 0>(totalPrice)<<endl;
+        totalPrice = (double(purchaseAmount*15))/100;
+        cout<<totalPrice<<endl;
     }
     return 0;
 }
