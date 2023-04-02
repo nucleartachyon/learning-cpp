@@ -17,14 +17,10 @@ int max(int num1, int num2) {
 }
 
 int main() {
-    //getting inputs
     int first;
     cin >> first;
     int second;
     cin >> second;
     cout<<max(first,second);
-    //call the function and print result
-    
-    
     return 0;
 }

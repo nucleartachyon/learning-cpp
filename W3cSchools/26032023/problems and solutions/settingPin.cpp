@@ -12,7 +12,7 @@ int main(){
     int range;
     cin>>range;
     int Pin[4];
-    for(int i = 0,i < 4;i++){
+    for(int i = 0;i < 4;i++){
         Pin[i] = 1 + (rand() % range);
     }
     cout<<Pin[0]<<Pin[1]<<Pin[2]<<Pin[3];
