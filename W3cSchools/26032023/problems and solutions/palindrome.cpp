@@ -8,11 +8,13 @@ problem: A palindromic number is a number (such as 626) that remains the same wh
 using namespace std;
 
 bool IsPalindrome(int x){
-    int rem,revNum;
-    while(x != 0){
-        rem = x%10;
+    int rem,revNum = 0,temp;
+    temp = x;
+    while(temp != 0){
+        rem = temp%10;
         revNum = revNum*10 + rem;
-        x/=10;
+        temp/=10;
+        cout<<x<<","<<revNum<<endl;
     }
     if(x == revNum){
         return true;
